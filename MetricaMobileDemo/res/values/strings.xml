@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MetricaMobileDemo</string>
+
+    <string name="metrica_text">Preencha os campos de texto para calcular divisões.</string>
+    <string name="metrica_title">Métrica Mobile</string>
+    <string name="metrica_button">Jogue Erro</string>
+    <string name="metrica_name">Métrica Mobile</string>
+    <string name="_">" / "</string>
+    <string name="metrica_eq">=</string>
+    <string name="metrica_val">1</string>
+    <string name="metrica_text_chose">Se você quiser lançar um erro, pressione o botão abaixo.</string>
+    <string name="metrica_calcular">Calcule Divisão</string>
+    <string name="metrica_label_chose">Número de erro(1-4):</string>
+    <string name="metrica_button_exception">Jogue Erro de exceção</string>
+</resources>
