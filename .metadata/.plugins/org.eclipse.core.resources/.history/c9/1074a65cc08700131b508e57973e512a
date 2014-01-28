@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        
+        <activity android:name="com.metricamobile.android.UpdateActivity" />
 
     </application>
 

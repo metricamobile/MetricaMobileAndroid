@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to run a Jar file --> 
+<project name="MetricaMobileLinker" default="LinkToMetricaMobile">
+	<!--class path-->
+	<path id="execute-classpath">
+		<fileset dir="./"><include name="metricamobile.android.linker.jar"/></fileset>
+	</path>
+	<!--run-->
+	<target name="LinkToMetricaMobile" description="Link to MetricaMobileAgent.jar">     
+		<java classname="com.metricamobile.android.linker.XUMMLinkerMain" failonerror="true" fork="true">
+			<classpath refid="execute-classpath"/>
+			<sysproperty key="java.library.path" value="lib/"/>
+			<arg value="-id"/>
+			<arg value="9e6a55b6b4563e652a23be9d623ca5055c356940"/>
+			<arg value="-classroot"/>
+			<arg value="./bin/classes/"/>
+		</java>     
+	</target>
+</project>

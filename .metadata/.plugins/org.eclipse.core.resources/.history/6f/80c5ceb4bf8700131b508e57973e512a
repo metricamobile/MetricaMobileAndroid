@@ -17,6 +17,8 @@ public class MainActivity extends Activity {
     setContentView(R.layout.main);
 
     System.setProperty("http.keepAlive", "false");
+
+    //MetricaMobile.sharedInstance().init(this, "9e6a55b6b4563e652a23be9d623ca5055c356940");
   }
   
 

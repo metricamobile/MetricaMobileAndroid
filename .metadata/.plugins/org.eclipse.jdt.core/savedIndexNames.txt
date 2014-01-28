@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+/Users/logicoim/Documents/Mobile/Github/MetricaMobileAndroid/.metadata/.plugins/org.eclipse.jdt.core
+1302628468.index
+1479135307.index
+3980524340.index
+498949880.index

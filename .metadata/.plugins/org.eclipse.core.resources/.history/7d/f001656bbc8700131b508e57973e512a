@@ -17,6 +17,8 @@ public class MainActivity extends Activity {
     setContentView(R.layout.main);
 
     System.setProperty("http.keepAlive", "false");
+
+    //MetricaMobile.sharedInstance().init(this, "9e6a55b6b4563e652a23be9d623ca5055c356940");
   }
   
 
@@ -36,7 +38,7 @@ public class MainActivity extends Activity {
 	  	}
 	  	case 3:{
 	  		float raiz=FloatMath.sqrt((float) -4.0);
-	  		System.out.print(raiz);
+	  		
 	  		break;
 	  	}
 	  	case 4:{
